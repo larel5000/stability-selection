@@ -16,7 +16,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.base import BaseEstimator, TransformerMixin, clone
-from sklearn.externals.joblib import Parallel, delayed
+from joblib import Parallel, delayed
 from sklearn.feature_selection import SelectFromModel
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
